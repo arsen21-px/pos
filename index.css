@@ -36,30 +36,191 @@
     gap: 40px;
     align-items: center;
     padding: 0;
-    margin: 0;
-  }
-
-  nav li {
-    cursor: pointer;
-    transition: color 0.3s ease;
-    font-weight: 500;
-  }
-
-  nav li:hover {
-    color: #0011ff;
-    text-decoration: underline;
-  }
-
-  select {
-    background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
-    border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 14px;
-    cursor: pointer;
-  }
+    box-sizing: border-box;
+}
 }
 
+
+/* Card roma */
+.tariff-box {
+  width: 280px;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.tariff-box h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.p-bix {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
+.slct {
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  width: 240px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.basic {
+  background-color: #f6f7fa;
+}
+
+.plus {
+  background-color: #eaffea;
+}
+
+.business {
+  background-color: #ffeee6;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card li {
+  margin-bottom: 5px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.plans {
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  width: 240px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.basic {
+  background-color: #f6f7fa;
+}
+
+.plus {
+  background-color: #eaffea;
+}
+
+.business {
+  background-color: #ffeee6;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card li {
+  margin-bottom: 5px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.btn-box1 {
+  margin-top: 130px;
+}
+
+.btn-box2 {
+  margin-top: 75px;
+}
+
+
+.btn-box3 {
+  margin-top: 10px;
+}
+
+
+/* Card roma */
 .btn-1-u {
   width: 100px;
   height: 50px;
