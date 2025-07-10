@@ -1,4 +1,5 @@
 /* ARSEN */
+/* <!-- aikokul  Подключение эквайринга --> */
 * {
     margin: 0;
     padding: 0;
@@ -232,3 +233,454 @@
     }
 }
 /* ARSEN */
+@font-face {
+    font-family: "TT Hoves";
+    src:
+        local("TT Hoves"),
+        url("./font/TTHoves-Regular.woff") format("woff");
+}
+
+body {
+    font-family: "TT Hoves";
+}
+
+.bg {
+    background-image: url(./img/bg-regtangle.svg);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+}
+
+.b-cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.b-card {
+    width: 440px;
+    border-radius: 25px;
+    padding: 24px;
+}
+.b-title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.b-card h3 {
+    color: #000000d0;
+    font-size: 36px;
+    padding-top: 12px;
+    font-weight: 600;
+    margin-bottom: 52px;
+}
+
+.b-card:first-child h3 {
+    margin-bottom: 98px;
+}
+
+.b-card:last-child h3 {
+    margin-bottom: 98px;
+}
+
+.p1, .p2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #00000073;
+}
+.b-card  .p2 {
+    color: black;
+    margin-bottom: 0;
+}
+/* <!-- aikokul  Подключение эквайринга --> */
+/* instrument-doni */
+.d-Card {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-Card h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 40px;
+    width: 724px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+.d-card-s {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: space-between;
+}
+
+.d-blog {
+    width: 23%;
+    min-width: 250px;
+    background-color: #F2F4F7;
+    border-radius: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.d-blog:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.d-blog h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 16px 4px;
+    color: #333;
+}
+
+.d-blog p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    padding: 0 16px 12px;
+}
+
+.d-blog h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #007bff;
+    padding: 0 16px 16px;
+    margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .d-blog {
+        width: 48%;
+    }
+    .d-Card {
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 600px) {
+    .d-blog {
+        width: 100%;
+    }
+    .d-Card h1 {
+        width: 80%;
+    }
+}
+
+/* instrument-doni */
+
+.div-3-u {
+  height: 725px;
+  background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
+}
+.div {
+  height: 200px;
+  background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div-3-u {
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  li {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "TT Hoves", sans-serif;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+}
+
+
+/* Card roma */
+.tariff-box {
+  width: 280px;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.tariff-box h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.p-bix {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
+.slct {
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  width: 240px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.basic {
+  background-color: #f6f7fa;
+}
+
+.plus {
+  background-color: #eaffea;
+}
+
+.business {
+  background-color: #ffeee6;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card li {
+  margin-bottom: 5px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.plans {
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  width: 240px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.basic {
+  background-color: #f6f7fa;
+}
+
+.plus {
+  background-color: #eaffea;
+}
+
+.business {
+  background-color: #ffeee6;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card li {
+  margin-bottom: 5px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.btn-box1 {
+  margin-top: 130px;
+}
+
+.btn-box2 {
+  margin-top: 75px;
+}
+
+
+.btn-box3 {
+  margin-top: 10px;
+}
+
+
+/* Card roma */
+.btn-1-u {
+  width: 100px;
+  height: 50px;
+  background-color: rgba(223, 244, 255, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-2-u {
+  width: 180px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  font-family: "TT Hoves", sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+}
+.p-1-u {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "TT Hoves", sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+.h1-1-u {
+  font-size: 90px;
+  font-weight: 400;
+  color: black;
+  font-family: "TT Hoves", sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+.p-2-u {
+  font-size: 30px;
+  font-weight: 400;
+  color: gray;
+  font-family: "TT Hoves", sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 37px;
+}
+.btn-3-u {
+  width: 220px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "TT Hoves", sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.div-2-u {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.p-3-u {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  font-family: "TT Hoves", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 37px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.p-3-u:hover {
+  color: #0011ff;
+  text-decoration: underline;
+}
