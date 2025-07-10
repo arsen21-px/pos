@@ -1,5 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* instrument-doni */
+.d-Card {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-Card h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 40px;
+    width: 724px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+.d-card-s {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: space-between;
+}
+
+.d-blog {
+    width: 23%;
+    min-width: 250px;
+    background-color: #F2F4F7;
+    border-radius: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.d-blog:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.d-blog h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 16px 4px;
+    color: #333;
+}
+
+.d-blog p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    padding: 0 16px 12px;
+}
+
+.d-blog h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #007bff;
+    padding: 0 16px 16px;
+    margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .d-blog {
+        width: 48%;
+    }
+    .d-Card {
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 600px) {
+    .d-blog {
+        width: 100%;
+    }
+    .d-Card h1 {
+        width: 80%;
+    }
+}
+
+/* instrument-doni */
