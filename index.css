@@ -60,13 +60,33 @@
 
   }
 
+  }
+
+  p {
+    font-size: 22px;
+    color: #00000073;
+    width: 440px;
+    padding-bottom: 15px;
+  }
+
+  span img {
+    width: 20px;
+    height: 23px;
+  }
+
+  span {
+    font-size: 20px;
+    color: #00000073;
+    display: flex;
+  }
+
   a {
     color: black;
     font-size: 20px;
     padding-top: 15px;
     text-underline-offset: 3px;
   }
-}
+
 
 .sc-card {
   display: flex;
@@ -185,6 +205,7 @@
   margin: 80px auto;
   padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   background-color: #f9f9f9;
   border-radius: 20px;
@@ -241,6 +262,7 @@
   src:
     local("TT Hoves"),
     url("./font/TTHoves-Regular.woff") format("woff");
+  src: local("TT Hoves"), url("./font/TTHoves-Regular.woff") format("woff");
 }
 
 body {
@@ -344,6 +366,7 @@ body {
   width: 23%;
   min-width: 250px;
   background-color: #F2F4F7;
+  background-color: #f2f4f7;
   border-radius: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: 0.3s ease;
@@ -397,7 +420,7 @@ body {
 }
 
 /* instrument-doni */
-
+/* header-umar */
 .div-3-u {
   height: 725px;
   background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
@@ -407,7 +430,10 @@ body {
   height: 200px;
   background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
 }
-
+.continer{
+  margin: 0 auto;
+  width: 1360px;
+}
 .header {
   display: flex;
   align-items: center;
@@ -424,7 +450,7 @@ body {
 
   li {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgba(0, 0, 0, 0.6);
     font-family: "TT Hoves", sans-serif;
   }
@@ -436,10 +462,16 @@ body {
     align-items: center;
     padding: 0;
     box-sizing: border-box;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  li:hover {
+    color: #0011ff;
+    text-decoration: underline;
   }
 }
 
-
+/* header-umar */
 /* Card roma */
 .tariff-box {
   width: 280px;
@@ -469,7 +501,6 @@ body {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-
 
 .slct {
   display: flex;
@@ -537,7 +568,6 @@ body {
   cursor: pointer;
 }
 
-
 .plans {
   display: flex;
   gap: 20px;
@@ -604,7 +634,6 @@ body {
   cursor: pointer;
 }
 
-
 .btn-box1 {
   margin-top: 130px;
 }
@@ -613,13 +642,12 @@ body {
   margin-top: 75px;
 }
 
-
 .btn-box3 {
   margin-top: 10px;
 }
 
-
 /* Card roma */
+/* header-UMAR */
 .btn-1-u {
   width: 100px;
   height: 50px;
@@ -665,8 +693,10 @@ body {
   color: gray;
   font-family: "TT Hoves", sans-serif;
   margin-top: 40px;
-  text-align: center;
+  margin-left: 240px;
   line-height: 37px;
+  width: 1060px;
+  height: 66px;
 }
 
 .btn-3-u {
@@ -711,6 +741,8 @@ footer {
   background: linear-gradient(49.48deg, #D9E1FF 16.62%, #DFF4FF 73.9%);
   flex-wrap: wrap;
   height: 1200px;
+  margin: 0 auto;
+  width: 1440px;
 }
 
 .fut-n {
@@ -1022,3 +1054,342 @@ footer {
 }
 
 /* arsen footer end */
+
+/* Roma */
+.roma-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.left-r, .right-r {
+  flex: 1;
+  min-width: 280px;
+}
+
+.roma-block {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.roma-block:hover {
+  background-color: #eaeaea;
+}
+
+.roma-icon {
+  font-size: 24px;
+}
+
+.input-roma input[type="text"],
+.input-roma input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.checkbox-roma {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.checkbox-roma input {
+  margin-right: 8px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.desc-roma {
+  font-size: 12px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.roma-wrapp {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.left-r,
+.right-r {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .roma-wrapp {
+    flex-direction: column;
+  }
+
+  .left-r,
+  .right-r {
+    width: 100%;
+  }
+
+  .input-roma input,
+  .checkbox-roma,
+  .button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+
+  .desc-roma {
+    font-size: 14px;
+  }
+}
+/* Roma */
+.section-u {
+  margin-top: 120px;
+}
+
+.h1-2-u {
+  font-size: 36px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.p-4-u {
+  font-size: 36px;
+  font-weight: 400;
+  color: gray;
+  text-align: center;
+  line-height: 110%;
+  margin-top: 40px;
+}
+
+.big-u {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.small-u {
+  width: 440px;
+  height: 680px;
+  background-color: rgba(242, 244, 247, 1);
+  border-radius: 20px;
+}
+
+.img-1-u {
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.h1-3-u {
+  font-size: 36px;
+  font-weight: 400;
+  color: black;
+  margin-left: 32px;
+  margin-top: 428px;
+}
+
+.span-u img {
+  width: 20px;
+  height: 23px;
+}
+
+.span-u {
+  font-size: 20px;
+  color: #00000073;
+  display: flex;
+  padding-top: 10px;
+  margin-left: 32px;
+}
+.oval-u {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-left: 368px;
+}
+
+@media (max-width: 475px) {
+  .h1-2-u {
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    height: 93px;
+    width: 240px;
+    margin-left: 40px;
+  }
+
+  .p-4-u {
+    margin-left: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    color: gray;
+    line-height: 110%;
+    margin-top: 40px;
+    text-align: left;
+    height: 186px;
+    width: 330px;
+  }
+  .big-u {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .small-u {
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    width: 400px;
+  }
+  .oval-u {
+    margin-left: 330px;
+  }
+  .img-1-u {
+    position: absolute;
+    margin-top: 32px;
+
+    width: 365px;
+  }
+  .div-3-u {
+    height: 725px;
+    background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
+  }
+  .div {
+    height: 200px;
+    background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .div-3-u {
+    ul {
+      font-size: 0;
+      color: transparent;
+    }
+    li {
+      font-size: 0;
+      color: transparent;
+    }
+    nav ul {
+      font-size: 0;
+      color: transparent;
+    }
+    .btn-1-u {
+      display: none;
+    }
+    select {
+      display: none;
+    }
+.div-4-u{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+    .btn-2-u {
+      width: 180px;
+      height: 50px;
+      background-color: rgb(0, 0, 0);
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      font-family: "TT Hoves", sans-serif;
+      cursor: pointer;
+      border: none;
+      border-radius: 30px;
+      margin-left: -130px;
+      margin-top: 30px;
+    }
+    .p-1-u {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.6);
+      font-family: "TT Hoves", sans-serif;
+      text-align: center;
+      margin-top: 60px;
+    }
+    .h1-1-u {
+      font-size: 48px;
+      font-weight: 400;
+      color: black;
+      font-family: "TT Hoves", sans-serif;
+      text-align: center;
+    }
+    .p-2-u {
+      font-size: 14px;
+      font-weight: 400;
+      color: gray;
+      font-family: "TT Hoves", sans-serif;
+      line-height: 24px;
+      width: 338px;
+      height: 40px;
+      margin-left: 73px;
+      margin-top: 20px;
+    }
+    .btn-3-u {
+      width: 220px;
+      height: 50px;
+      background-color: black;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "TT Hoves", sans-serif;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 40px;
+    }
+    .div-2-u {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .p-3-u {
+      font-size: 14px;
+      font-weight: 400;
+      color: gray;
+      font-family: "TT Hoves", sans-serif;
+      margin-top: 20px;
+      text-align: center;
+      line-height: 37px;
+      transition: color 0.3s ease;
+      cursor: pointer;
+    }
+    .p-3-u:hover {
+      color: #0011ff;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* header-umar */
