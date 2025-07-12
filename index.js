@@ -92,6 +92,7 @@ dinstrm.forEach(item => {
     container.appendChild(blog);
 });
 // instrument-doni end
+// umar start
 const ul = document.getElementById("menuList");
 
 
@@ -130,7 +131,7 @@ select2.append(option2_umarchik, option2_umar, option2_umka,option3_umka);
 selectLi2.appendChild(select2);
 ul.appendChild(selectLi2);
 
-// --- Постоянные li ---
+
 const menuItems = ["Почему мы", "Цены", "Партнерам"];
 
 menuItems.forEach((text) => {
@@ -139,3 +140,6 @@ menuItems.forEach((text) => {
   li.textContent = text;
   ul.appendChild(li);
 });
+
+
+    // умар end
