@@ -11,6 +11,7 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 150px;
 }
 
 .sec-a {
@@ -18,6 +19,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .fr-card {
@@ -36,6 +38,28 @@
     font-size: 36px;
     font-weight: 400;
     padding-bottom: 10px;
+
+  }
+
+  p {
+    font-size: 22px;
+    color: #00000073;
+    width: 440px;
+    padding-bottom: 15px;
+  }
+
+  span img {
+    width: 20px;
+    height: 23px;
+  }
+
+  span {
+    font-size: 20px;
+    color: #00000073;
+    display: flex;
+
+  }
+
   }
 
   p {
@@ -62,7 +86,7 @@
     padding-top: 15px;
     text-underline-offset: 3px;
   }
-}
+
 
 .sc-card {
   display: flex;
@@ -180,6 +204,7 @@
   max-width: 1000px;
   margin: 80px auto;
   padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   background-color: #f9f9f9;
@@ -230,9 +255,13 @@
     padding-right: 5px;
   }
 }
+
 /* ARSEN */
 @font-face {
   font-family: "TT Hoves";
+  src:
+    local("TT Hoves"),
+    url("./font/TTHoves-Regular.woff") format("woff");
   src: local("TT Hoves"), url("./font/TTHoves-Regular.woff") format("woff");
 }
 
@@ -271,6 +300,7 @@ body {
   border-radius: 25px;
   padding: 24px;
 }
+
 .b-title {
   font-size: 36px;
   font-weight: 400;
@@ -300,10 +330,12 @@ body {
   margin-bottom: 16px;
   color: #00000073;
 }
+
 .b-card .p2 {
   color: black;
   margin-bottom: 0;
 }
+
 /* <!-- aikokul  Подключение эквайринга --> */
 /* instrument-doni */
 .d-Card {
@@ -333,6 +365,7 @@ body {
 .d-blog {
   width: 23%;
   min-width: 250px;
+  background-color: #F2F4F7;
   background-color: #f2f4f7;
   border-radius: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -370,6 +403,7 @@ body {
   .d-blog {
     width: 48%;
   }
+
   .d-Card {
     justify-content: center;
   }
@@ -379,6 +413,7 @@ body {
   .d-blog {
     width: 100%;
   }
+
   .d-Card h1 {
     width: 80%;
   }
@@ -390,18 +425,21 @@ body {
   height: 725px;
   background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
 }
+
 .div {
   height: 200px;
   background: linear-gradient(49.48deg, #d9e1ff 16.62%, #dff4ff 73.9%);
 }
 .continer{
-  margin: o auto;
+  margin: 0 auto;
+  width: 1360px;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
 .div-3-u {
   ul {
     display: flex;
@@ -409,12 +447,14 @@ body {
     list-style: none;
     gap: 20px;
   }
+
   li {
     font-size: 16px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.6);
     font-family: "TT Hoves", sans-serif;
   }
+
   nav ul {
     list-style: none;
     display: flex;
@@ -628,6 +668,7 @@ body {
   border: none;
   border-radius: 30px;
 }
+
 .p-1-u {
   font-size: 24px;
   font-weight: 400;
@@ -636,6 +677,7 @@ body {
   text-align: center;
   margin-top: 60px;
 }
+
 .h1-1-u {
   font-size: 90px;
   font-weight: 400;
@@ -644,6 +686,7 @@ body {
   margin-top: 30px;
   text-align: center;
 }
+
 .p-2-u {
   font-size: 30px;
   font-weight: 400;
@@ -655,6 +698,7 @@ body {
   width: 1060px;
   height: 66px;
 }
+
 .btn-3-u {
   width: 220px;
   height: 50px;
@@ -666,12 +710,14 @@ body {
   border-radius: 30px;
   cursor: pointer;
 }
+
 .div-2-u {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
 }
+
 .p-3-u {
   font-size: 14px;
   font-weight: 400;
@@ -683,11 +729,331 @@ body {
   transition: color 0.3s ease;
   cursor: pointer;
 }
+
 .p-3-u:hover {
   color: #0011ff;
   text-decoration: underline;
 }
 
+/* arsen footer */
+footer {
+  display: flex;
+  background: linear-gradient(49.48deg, #D9E1FF 16.62%, #DFF4FF 73.9%);
+  flex-wrap: wrap;
+  height: 1200px;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.fut-n {
+  padding: 60px 0 90px 115px;
+  display: flex;
+  gap: 20px;
+
+  span {
+    font-size: 14px;
+    color: #00000073;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    width: 200px;
+  }
+}
+
+.ff-n {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 140px;
+}
+
+.ff1-n {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 160px;
+}
+
+.ff2-n {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 90px;
+
+  p {
+    width: 300px;
+  }
+}
+
+.ff3-n {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 220px;
+}
+
+.btna {
+  display: flex;
+  gap: 22px;
+  margin-left: 115px;
+
+  button {
+    width: 670px;
+    height: 192px;
+    border-radius: 28px;
+    padding: 24px;
+    border: none;
+    background-color: white;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn1-n {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn1-n:hover {
+    background-color: #edf7fd;
+  }
+
+  .btn2-n {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn2-n:hover {
+    background-color: #edf7fd;
+  }
+
+
+  button img {
+    width: 54.04px;
+    height: 54.14px;
+  }
+
+  span {
+    margin-top: 50px;
+    margin-left: -370px;
+  }
+
+  .numc {
+    margin-left: -320px;
+  }
+}
+
+.futer-a {
+  display: flex;
+  margin-top: 50px;
+  border-top: 1px solid #0000001A;
+  padding-top: 60px;
+  width: 100%;
+  font-size: 15px;
+  padding-left: 110px;
+
+  h4 {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 80px;
+    font-weight: 300;
+  }
+}
+
+.ff2-a {
+  text-decoration: underline;
+  padding-right: 460px;
+
+  p {
+    padding-bottom: 10px;
+  }
+}
+
+.ff3-a {
+  text-decoration: underline;
+  text-align: right;
+
+  p {
+    padding-bottom: 10px;
+  }
+}
+
+.imgn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  margin-left: 45px;
+  transition: background-color 0.2s ease;
+}
+
+.imgn:hover {
+  background-color: #e4e2e2c4;
+}
+
+.imgn-1 {
+  position: absolute;
+  width: 440px;
+  height: 250px;
+  margin-top: 880px;
+  width: 450px;
+  height: 320px;
+}
+
+.imgn-2 {
+  position: absolute;
+  width: 430px;
+  height: 320px;
+  margin-top: 880px;
+  margin-left: 1150px;
+}
+
+.h1-n {
+  font-size: 160px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 180px;
+  font-weight: 400;
+}
+
+.footer-mobile{
+  display: none;
+}
+
+
+
+@media (max-width: 475px) {
+  footer {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .fut-n {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 55px;
+    text-align: left;
+  }
+
+  .ff-n,
+  .ff1-n,
+  .ff2-n,
+  .ff3-n {
+    padding: 0;
+    text-align: left;
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+
+  .ff-n p,
+  .ff1-n p,
+  .ff2-n p,
+  .ff3-n p {
+    font-size: 16px;
+    width: 150px;
+  }
+
+  .ff3-n {
+    margin-left: 225px;
+    margin-top: -260px;
+  }
+
+  .btna {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 50px;
+  }
+
+  .btna button {
+    width: 100%;
+    width: 370px;
+    height: 213px;
+    border-radius: 28px;
+    padding: 24px;
+  }
+
+  .btna button span {
+    font-size: 32px;
+    margin-left: -110px;
+    margin-top: 70px;
+  }
+
+  .numc {
+    padding-left: 260px;
+  }
+
+  .footer-mobile {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 500;
+      position: absolute;
+      border-top: 1px solid grey;
+      width: 100%;
+      padding-top: 300px;
+    }
+  }
+
+  .m {
+    margin-left: 120px;
+  }
+
+  .n {
+    margin-left: -10px;
+  }
+
+  .text-n {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -350px;
+
+    p {
+      color: #000000;
+      padding-bottom: 15px;
+    }
+
+    a {
+      color: #000000;
+    }
+
+    span {
+      text-decoration: underline;
+    }
+  }
+
+  .imgn {
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .np {
+    margin-bottom: 30px;
+  }
+
+  .futer-a {
+    display: none;
+  }
+
+  .futer-a h4 {
+    display: none;
+  }
+
+  .imgn-1,
+  .imgn-2 {
+    display: none;
+  }
+
+  .h1-n {
+    display: none;
+  }
+}
+
+/* arsen footer end */
 
 /* Roma */
 .roma-wrapp {
